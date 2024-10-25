@@ -23,6 +23,12 @@ I am unable to fight from the frontlines, thus I raise my voice in the tiny way 
 
 ### Step 1: Clone this Repo
 
+### Step 2: Install the Dependencies
+In the root directory.
+```plaintext
+pip install -r requirements.txt
+```
+
 ### Step 2: Open the `trainfromvideo.ipynb` file from the `Preparation Files` folder
 
 ### Step 3: In the same directory, create the following folders:
@@ -84,3 +90,9 @@ Supported sentences:
 - 'What happened' 
 - 'Yes'
 ```
+
+## Usability Note
+Windows does not support tensorflow's GPU version directly without installing WSL. If you are running this on vanilla windows, you will have to run the model on your CPU. If you are using linux or WSL, the tensorflow installation process is a bit different, check out here.
+- [Install Tensorflow GPU on WSL](https://medium.com/@momchilbattlenet/simple-guide-for-installing-tensorflow-gpu-version-on-wsl2-7e8aec2e3001#:~:text=Just%20install%20the%20Game%20ready,programs%20from%20your%20Windows%20PC)
+- [Install Tensorflow on Linux](https://www.tensorflow.org/install/pip#linux)
+
