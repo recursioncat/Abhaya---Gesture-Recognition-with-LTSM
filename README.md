@@ -29,16 +29,16 @@ In the root directory.
 pip install -r requirements.txt
 ```
 
-### Step 2: Open the `trainfromvideo.ipynb` file from the `Preparation Files` folder
+### Step 3: Open the `trainfromvideo.ipynb` file from the `Preparation Files` folder
 
-### Step 3: In the same directory, create the following folders:
+### Step 4: In the same directory, create the following folders:
 
 ```plaintext
 Training Data
 Training npy > Training Data
 ```
 
-### Step 4: Place the videos you want to train on in the `Training Data` folder, ensuring they are organized by class:
+### Step 5: Place the videos you want to train on in the `Training Data` folder, ensuring they are organized by class:
 
 ```plaintext
 Training Data
@@ -50,9 +50,9 @@ Training Data
 
 It is recommended to keep a minimum of 30 videos per class.
 
-### Step 5: Adjust the model architecture, learning rate, and other hyperparameters as needed, then start training.
+### Step 6: Adjust the model architecture, learning rate, and other hyperparameters as needed, then start training.
 
-### Step 6: Test your model using the `test.ipynb` file. Alternatively, you can use the `testingwithjson.py` file in the `Models and Testing` folder to test your model via an API.
+### Step 7: Test your model using the `test.ipynb` file. Alternatively, you can use the `testingwithjson.py` file in the `Models and Testing` folder to test your model via an API.
 
 ## How it Works
 
