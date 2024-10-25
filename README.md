@@ -3,7 +3,6 @@
 ## Quick Links
 
 - [Based on: Tutorial](https://www.youtube.com/watch?v=doDUihpj6ro&t=6432s&ab_channel=NicholasRenotte)
-- [Dataset](https://drive.google.com/file/d/1VbQK71O4wyWHBCMWBdYknM_Ymyr3rzJ5/view?usp=sharing)
 - [Reference for Indian Sign Language](https://data.mendeley.com/datasets/kcmpdxky7p/1)
 
 ## A Short Note on the Name
