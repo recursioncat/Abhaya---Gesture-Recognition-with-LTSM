@@ -5,7 +5,7 @@ import keras
 import os
 
 app = Flask(__name__)
-model = keras.models.load_model('VideoRecognitionV2_Bekar.keras')
+model = keras.models.load_model('Abhaya V1.keras')
 classes = ['Are you free today', 'Can you repeat that please',
        'Congratulations', 'help me please', 'how are you', 'I am fine',
        'I love you', 'no', 'Please come,Welcome', 'Talk slower please',
